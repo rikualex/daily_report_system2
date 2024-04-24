@@ -14,7 +14,7 @@ public class ServiceBase {
 	/**
 	 * EntityManagerインスタンス
 	 */
-	protected EntityManager emEntityManager = DBUtil.creatEntityManager();
+	protected EntityManager em = DBUtil.creatEntityManager();
 	
 	
 	/**
