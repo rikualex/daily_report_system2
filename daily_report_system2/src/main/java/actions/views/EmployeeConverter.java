@@ -1,4 +1,5 @@
 package actions.views;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,7 +11,7 @@ import models.Employee;
  * 従業員データのDTOモデル⇔Viewモデルの変換を行うクラス
  *
  */
-public class EmployeeConventor {
+public class EmployeeConverter {
 
     /**
      * ViewモデルのインスタンスからDTOモデルのインスタンスを作成する
@@ -101,3 +102,4 @@ public class EmployeeConventor {
     }
 
 }
+
